@@ -1,0 +1,16 @@
+{"timestamp":"2026-01-19T21:09:56.101765","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-01-19T21:09:56.105892","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/12.Dagrundag1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-01-19T21:09:57.669479Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-19T21:09:57.670723Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-19T21:09:57.671397Z","level":"info","event":"Current task name:tsk2","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-19T21:09:57.671921Z","level":"info","event":"Dag name:dagrundag1","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-19T21:09:56.251094","level":"info","event":"Triggering Dag Run.","trigger_dag_id":"dagrundag2","logger":"task"}
+{"timestamp":"2026-01-19T21:09:57.669781","level":"info","event":"Dag Run triggered successfully.","trigger_dag_id":"dagrundag2","logger":"task"}
+{"timestamp":"2026-01-19T21:09:57.670297","level":"info","event":"Waiting for dag run to complete execution in allowed state.","dag_id":"dagrundag2","run_id":"manual__2026-01-19T21:09:56.250423+00:00","allowed_state":["success"],"logger":"task"}
+{"timestamp":"2026-01-19T21:10:03.345927","level":"info","event":"Waiting for dag run to complete execution in allowed state.","dag_id":"dagrundag2","run_id":"manual__2026-01-19T21:09:56.250423+00:00","allowed_state":["success"],"logger":"task"}
+{"timestamp":"2026-01-19T21:10:08.440573","level":"info","event":"Waiting for dag run to complete execution in allowed state.","dag_id":"dagrundag2","run_id":"manual__2026-01-19T21:09:56.250423+00:00","allowed_state":["success"],"logger":"task"}
+{"timestamp":"2026-01-19T21:10:13.474579","level":"info","event":"Waiting for dag run to complete execution in allowed state.","dag_id":"dagrundag2","run_id":"manual__2026-01-19T21:09:56.250423+00:00","allowed_state":["success"],"logger":"task"}
+{"timestamp":"2026-01-19T21:10:18.491262","level":"info","event":"DagRun finished with allowed state.","dag_id":"dagrundag2","state":"success","logger":"task"}
+{"timestamp":"2026-01-19T21:10:18.661667Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-19T21:10:18.666798Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-19T21:10:18.672492Z","level":"info","event":"Task operator:<Task(TriggerDagRunOperator): tsk2>","chan":"stdout","logger":"task"}

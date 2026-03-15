@@ -1,0 +1,14 @@
+{"timestamp":"2026-01-18T18:05:51.812737","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-01-18T18:05:51.813570","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-01-18T18:05:51.904855Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-18T18:05:51.905449Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-18T18:05:51.906157Z","level":"info","event":"Current task name:decide_branch","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-18T18:05:51.906562Z","level":"info","event":"Dag name:Demo","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-18T18:05:51.907218Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-18T18:05:51.907641Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-18T18:05:51.908105Z","level":"info","event":"Task operator:<Task(BranchPythonOperator): decide_branch>","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-18T18:05:51.841082","level":"info","event":"Done. Returned value was: branch_a_start","logger":"airflow.task.operators.airflow.providers.standard.operators.python.BranchPythonOperator"}
+{"timestamp":"2026-01-18T18:05:51.841255","level":"info","event":"Branch into branch_a_start","logger":"airflow.task.operators.airflow.providers.standard.operators.python.BranchPythonOperator"}
+{"timestamp":"2026-01-18T18:05:51.841781","level":"info","event":"Following branch {'branch_a_start'}","logger":"airflow.task.operators.airflow.providers.standard.operators.python.BranchPythonOperator"}
+{"timestamp":"2026-01-18T18:05:51.843489","level":"info","event":"Skipping tasks [('branch_b_start', -1)]","logger":"airflow.task.operators.airflow.providers.standard.operators.python.BranchPythonOperator"}
+{"timestamp":"2026-01-18T18:05:51.844019","level":"info","event":"Skipping downstream tasks.","logger":"task"}

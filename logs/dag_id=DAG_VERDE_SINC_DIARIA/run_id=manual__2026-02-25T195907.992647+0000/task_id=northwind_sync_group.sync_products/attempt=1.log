@@ -1,0 +1,5 @@
+{"timestamp":"2026-02-25T20:00:24.223037","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-25T20:00:24.226165","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/carga_neon.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-25T20:00:24.423882","level":"info","event":"Iniciando atualização da tabela: products","logger":"airflow.task"}
+{"timestamp":"2026-02-25T20:00:24.425621","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2026-02-25T20:00:25.398367Z","level":"info","event":"Dados da tabela products atualizados com sucesso.","chan":"stdout","logger":"task"}

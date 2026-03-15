@@ -1,0 +1,11 @@
+{"timestamp":"2026-01-19T20:27:16.663948","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-01-19T20:27:16.665759","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Xcom.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-01-19T20:27:16.782168Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-19T20:27:16.782902Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-19T20:27:16.783678Z","level":"info","event":"Current task name:task_read","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-19T20:27:16.784250Z","level":"info","event":"Dag name:Exemplo_Xcom1","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-19T20:27:16.784762Z","level":"info","event":"Valor retorno xcom:  10000","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-19T20:27:16.785099Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-19T20:27:16.785525Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-19T20:27:16.785931Z","level":"info","event":"Task operator:<Task(_PythonDecoratedOperator): task_read>","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-19T20:27:16.738123","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator"}

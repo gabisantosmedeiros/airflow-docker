@@ -1,0 +1,15 @@
+{"timestamp":"2026-01-20T13:19:12.546266","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-01-20T13:19:12.546916","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/20.Branch.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-01-20T13:19:12.604169Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T13:19:12.604933Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T13:19:12.605310Z","level":"info","event":"Current task name:impar_task","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T13:19:12.605710Z","level":"info","event":"Dag name:brachtest","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T13:19:12.592934","level":"info","event":"Tmp dir root location: /tmp","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2026-01-20T13:19:12.595930","level":"info","event":"Running command: ['/usr/bin/bash', '-c', 'echo \"Número Impar\"']","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2026-01-20T13:19:12.612850","level":"info","event":"Output:","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2026-01-20T13:19:12.634841","level":"info","event":"Número Impar","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2026-01-20T13:19:12.635174","level":"info","event":"Command exited with return code 0","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2026-01-20T13:19:12.636084","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019bdb8f-07d4-760b-a371-d1312a687eac'), task_id='impar_task', dag_id='brachtest', run_id='manual__2026-01-20T13:19:02.565665+00:00', try_number=1, map_index=-1, hostname='3da253af8116', context_carrier={}, task=<Task(BashOperator): impar_task>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=0, start_date=datetime.datetime(2026, 1, 20, 13, 19, 11, 437751, tzinfo=TzInfo(UTC)), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task"}
+{"timestamp":"2026-01-20T13:19:12.673248Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T13:19:12.673885Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T13:19:12.674346Z","level":"info","event":"Task operator:<Task(BashOperator): impar_task>","chan":"stdout","logger":"task"}

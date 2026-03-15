@@ -1,0 +1,15 @@
+{"timestamp":"2026-01-20T13:33:44.005244","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-01-20T13:33:44.005984","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/21.ShortCircuit.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-01-20T13:33:44.059217Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T13:33:44.060401Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T13:33:44.060895Z","level":"info","event":"Current task name:finaliza","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T13:33:44.061310Z","level":"info","event":"Dag name:shortcircuit","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T13:33:44.038682","level":"info","event":"Tmp dir root location: /tmp","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2026-01-20T13:33:44.041691","level":"info","event":"Running command: ['/usr/bin/bash', '-c', 'echo Finalizado porque qualidade boa']","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2026-01-20T13:33:44.072551","level":"info","event":"Output:","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2026-01-20T13:33:44.113620","level":"info","event":"Finalizado porque qualidade boa","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2026-01-20T13:33:44.115926","level":"info","event":"Command exited with return code 0","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2026-01-20T13:33:44.117385","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019bdb9c-146c-76d2-93c3-b2d309f1bb72'), task_id='finaliza', dag_id='shortcircuit', run_id='manual__2026-01-20T13:33:17.766842+00:00', try_number=1, map_index=-1, hostname='3da253af8116', context_carrier={}, task=<Task(BashOperator): finaliza>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=0, start_date=datetime.datetime(2026, 1, 20, 13, 33, 41, 389283, tzinfo=TzInfo(UTC)), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task"}
+{"timestamp":"2026-01-20T13:33:44.216853Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T13:33:44.221467Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T13:33:44.221983Z","level":"info","event":"Task operator:<Task(BashOperator): finaliza>","chan":"stdout","logger":"task"}

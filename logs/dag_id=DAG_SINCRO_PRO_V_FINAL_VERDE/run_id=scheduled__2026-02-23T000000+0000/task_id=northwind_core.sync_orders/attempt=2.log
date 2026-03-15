@@ -1,0 +1,5 @@
+{"timestamp":"2026-02-23T20:17:18.870599","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-23T20:17:18.873564","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/carga_neon.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-23T20:17:18.974881","level":"info","event":"🚀 Sincronizando: orders | PK: order_id","logger":"unusual_prefix_3ad521d9bc7c5d7d3cd35ea4aaa39ce54483d6e9_carga_neon"}
+{"timestamp":"2026-02-23T20:17:58.202625","level":"info","event":"✅ SUCESSO TOTAL: orders","logger":"unusual_prefix_3ad521d9bc7c5d7d3cd35ea4aaa39ce54483d6e9_carga_neon"}
+{"timestamp":"2026-02-23T20:17:58.277297","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

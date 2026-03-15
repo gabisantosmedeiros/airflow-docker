@@ -1,0 +1,2 @@
+{"timestamp":"2026-01-22T01:16:02.320651","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/22.Producer.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-01-22T01:21:13.882651","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/22.Producer.py","logger":"airflow.models.dagbag.DagBag"}

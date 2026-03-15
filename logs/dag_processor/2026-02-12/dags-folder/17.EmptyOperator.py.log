@@ -1,0 +1,16 @@
+{"timestamp":"2026-02-12T12:27:02.524055","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/17.EmptyOperator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:27:12.752318","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/17.EmptyOperator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:27:25.055108","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/17.EmptyOperator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:27:34.371985","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/17.EmptyOperator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:27:42.576178","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/17.EmptyOperator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:27:50.176727","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/17.EmptyOperator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:28:04.843311","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/17.EmptyOperator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:28:12.889280","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/17.EmptyOperator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:28:19.301002","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/17.EmptyOperator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:28:25.373507","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/17.EmptyOperator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:28:31.743804","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/17.EmptyOperator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:28:41.949881","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/17.EmptyOperator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:28:49.400364","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/17.EmptyOperator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:28:57.127742","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/17.EmptyOperator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:29:04.675848","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/17.EmptyOperator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:29:11.388046","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/17.EmptyOperator.py","logger":"airflow.models.dagbag.DagBag"}

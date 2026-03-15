@@ -1,0 +1,4 @@
+{"timestamp":"2026-02-23T20:21:13.874568","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-23T20:21:13.886818","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/carga_neon.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-23T20:21:19.235051","level":"info","event":"🚀 Sincronizando: customers | PK: customer_id","logger":"unusual_prefix_3ad521d9bc7c5d7d3cd35ea4aaa39ce54483d6e9_carga_neon"}
+{"timestamp":"2026-02-23T20:21:30.428362","level":"error","event":"❌ FALHA em customers: (psycopg2.OperationalError) could not translate host name \"host.docker.internal\" to address: Temporary failure in name resolution\n\n(Background on this error at: https://sqlalche.me/e/14/e3q8)","logger":"unusual_prefix_3ad521d9bc7c5d7d3cd35ea4aaa39ce54483d6e9_carga_neon"}

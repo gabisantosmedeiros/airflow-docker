@@ -1,0 +1,11 @@
+{"timestamp":"2026-01-20T13:30:29.469005","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-01-20T13:30:29.472089","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/21.ShortCircuit.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-01-20T13:30:31.146448Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T13:30:31.148032Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T13:30:31.148978Z","level":"info","event":"Current task name:gera_qualidade","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T13:30:31.149660Z","level":"info","event":"Dag name:shortcircuit","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T13:30:31.150203Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T13:30:31.150678Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T13:30:31.151129Z","level":"info","event":"Task operator:<Task(PythonOperator): gera_qualidade>","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T13:30:29.558082","level":"info","event":"Done. Returned value was: 66","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2026-01-20T13:30:29.558972","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019bdb99-6a92-7c6f-aa73-09661daf3027'), task_id='gera_qualidade', dag_id='shortcircuit', run_id='manual__2026-01-20T13:30:23.116765+00:00', try_number=1, map_index=-1, hostname='3da253af8116', context_carrier={}, task=<Task(PythonOperator): gera_qualidade>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=0, start_date=datetime.datetime(2026, 1, 20, 13, 30, 25, 759914, tzinfo=TzInfo(UTC)), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task"}

@@ -1,0 +1,14 @@
+{"timestamp":"2026-01-20T12:12:25.286526","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-01-20T12:12:25.296051","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/19.Pools.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-01-20T12:12:54.389634Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T12:12:54.391758Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T12:12:54.392662Z","level":"info","event":"Current task name:task_pesada","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T12:12:54.393663Z","level":"info","event":"Dag name:Pools","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T12:12:54.394446Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T12:12:54.395286Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T12:12:54.396503Z","level":"info","event":"Task operator:<Task(BashOperator): task_pesada>","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T12:12:25.567055","level":"info","event":"Tmp dir root location: /tmp","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2026-01-20T12:12:25.598363","level":"info","event":"Running command: ['/usr/bin/bash', '-c', 'sleep 5']","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2026-01-20T12:12:25.645905","level":"info","event":"Output:","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2026-01-20T12:12:33.335328","level":"info","event":"Command exited with return code 0","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2026-01-20T12:12:37.661251","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019bdb51-f342-7784-81c4-a9e34e2e5ac3'), task_id='task_pesada', dag_id='Pools', run_id='manual__2026-01-20T12:12:19.570373+00:00', try_number=1, map_index=-1, hostname='3da253af8116', context_carrier={}, task=<Task(BashOperator): task_pesada>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=0, start_date=datetime.datetime(2026, 1, 20, 12, 12, 21, 578560, tzinfo=TzInfo(UTC)), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task"}

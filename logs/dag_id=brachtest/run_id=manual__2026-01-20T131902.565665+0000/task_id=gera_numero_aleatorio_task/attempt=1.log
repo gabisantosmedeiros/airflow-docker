@@ -1,0 +1,11 @@
+{"timestamp":"2026-01-20T13:19:05.903621","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-01-20T13:19:05.904281","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/20.Branch.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-01-20T13:19:05.936372","level":"info","event":"Done. Returned value was: 23","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2026-01-20T13:19:05.936668","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019bdb8f-07d1-7346-a973-85b08838c573'), task_id='gera_numero_aleatorio_task', dag_id='brachtest', run_id='manual__2026-01-20T13:19:02.565665+00:00', try_number=1, map_index=-1, hostname='3da253af8116', context_carrier={}, task=<Task(PythonOperator): gera_numero_aleatorio_task>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=0, start_date=datetime.datetime(2026, 1, 20, 13, 19, 3, 996170, tzinfo=TzInfo(UTC)), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task"}
+{"timestamp":"2026-01-20T13:19:06.110014Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T13:19:06.110650Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T13:19:06.111140Z","level":"info","event":"Current task name:gera_numero_aleatorio_task","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T13:19:06.111608Z","level":"info","event":"Dag name:brachtest","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T13:19:06.112007Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T13:19:06.112515Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T13:19:06.112947Z","level":"info","event":"Task operator:<Task(PythonOperator): gera_numero_aleatorio_task>","chan":"stdout","logger":"task"}

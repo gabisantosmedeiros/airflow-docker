@@ -1,0 +1,4 @@
+{"timestamp":"2026-01-20T17:27:09.992971Z","level":"error","event":"Server indicated the task shouldn't be running anymore. Terminating process","detail":{"detail":{"reason":"not_running","message":"TI is no longer in the running state and task should terminate","current_state":null}},"logger":"task"}
+{"timestamp":"2026-01-20T17:27:09.479707","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-01-20T17:27:09.482535","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/25.Dinamico.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-01-20T17:27:10.038006Z","level":"error","event":"Task killed!","logger":"task"}

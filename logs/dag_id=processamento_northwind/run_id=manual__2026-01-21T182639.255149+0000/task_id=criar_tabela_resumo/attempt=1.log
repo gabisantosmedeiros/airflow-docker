@@ -1,0 +1,9 @@
+{"timestamp":"2026-01-21T18:26:57.750115","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-01-21T18:26:57.750704","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/meu_primeiro_pipeline.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-01-21T18:26:57.902016","level":"info","event":"Executing: \n            CREATE TABLE IF NOT EXISTS contabilidade.resumo_categorias (\n                categoria_nome VARCHAR(255),\n                data_processamento TIMESTAMP\n            );\n        ","logger":"airflow.task.operators.airflow.providers.common.sql.operators.sql.SQLExecuteQueryOperator"}
+{"timestamp":"2026-01-21T18:26:57.906578","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2026-01-21T18:26:59.579573","level":"warning","event":"Skipping masking for a secret as it's too short (<5 chars)","logger":"airflow.sdk.execution_time.secrets_masker"}
+{"timestamp":"2026-01-21T18:26:59.579907","level":"info","event":"Connection Retrieved 'postgres_local'","logger":"airflow.hooks.base"}
+{"timestamp":"2026-01-21T18:26:59.594480","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2026-01-21T18:26:59.609232","level":"info","event":"Connection Retrieved 'postgres_local'","logger":"airflow.hooks.base"}
+{"timestamp":"2026-01-21T18:26:59.892182","level":"info","event":"Running statement: \n            CREATE TABLE IF NOT EXISTS contabilidade.resumo_categorias (\n                categoria_nome VARCHAR(255),\n                data_processamento TIMESTAMP\n            );\n        , parameters: None","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}

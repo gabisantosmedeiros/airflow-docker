@@ -1,0 +1,28 @@
+{"timestamp":"2026-02-17T19:07:20.507537","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-17T19:07:20.513176","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/carga_supabase.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-17T19:07:22.104414Z","level":"info","event":"--- Iniciando Carga do Esquema Public ---","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:07:22.105529Z","level":"info","event":"Lendo local: categories","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:07:22.106074Z","level":"info","event":"AVISO: Nao foi possivel subir categories. Erro: 'utf-8' codec can't decode byte 0xe7 in position 1","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:07:22.106721Z","level":"info","event":"Lendo local: customers","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:07:22.107250Z","level":"info","event":"AVISO: Nao foi possivel subir customers. Erro: 'utf-8' codec can't decode byte 0xe7 in position 1","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:07:22.107739Z","level":"info","event":"Lendo local: employees","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:07:22.108211Z","level":"info","event":"AVISO: Nao foi possivel subir employees. Erro: 'utf-8' codec can't decode byte 0xe7 in position 1","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:07:22.109959Z","level":"info","event":"Lendo local: orders","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:07:22.110398Z","level":"info","event":"AVISO: Nao foi possivel subir orders. Erro: 'utf-8' codec can't decode byte 0xe7 in position 1","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:07:22.110813Z","level":"info","event":"Lendo local: products","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:07:22.111180Z","level":"info","event":"AVISO: Nao foi possivel subir products. Erro: 'utf-8' codec can't decode byte 0xe7 in position 1","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:07:22.111584Z","level":"info","event":"Lendo local: shippers","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:07:22.113247Z","level":"info","event":"AVISO: Nao foi possivel subir shippers. Erro: 'utf-8' codec can't decode byte 0xe7 in position 1","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:07:22.113828Z","level":"info","event":"Lendo local: suppliers","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:07:22.166001Z","level":"info","event":"AVISO: Nao foi possivel subir suppliers. Erro: 'utf-8' codec can't decode byte 0xe7 in position 1","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:07:22.166761Z","level":"info","event":"Lendo local: territories","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:07:22.215991Z","level":"info","event":"AVISO: Nao foi possivel subir territories. Erro: 'utf-8' codec can't decode byte 0xe7 in position 1","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:07:22.216771Z","level":"info","event":"Lendo local: region","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:07:22.267558Z","level":"info","event":"AVISO: Nao foi possivel subir region. Erro: 'utf-8' codec can't decode byte 0xe7 in position 1","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:07:22.268632Z","level":"info","event":"Lendo local: order_details","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:07:22.321013Z","level":"info","event":"AVISO: Nao foi possivel subir order_details. Erro: 'utf-8' codec can't decode byte 0xe7 in position 1","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:07:22.321927Z","level":"info","event":"Lendo local: departamentos","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:07:22.374063Z","level":"info","event":"AVISO: Nao foi possivel subir departamentos. Erro: 'utf-8' codec can't decode byte 0xe7 in position 1","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:07:22.376682Z","level":"info","event":"Lendo local: funcionarios","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:07:22.422213Z","level":"info","event":"AVISO: Nao foi possivel subir funcionarios. Erro: 'utf-8' codec can't decode byte 0xe7 in position 1","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:07:22.424590","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

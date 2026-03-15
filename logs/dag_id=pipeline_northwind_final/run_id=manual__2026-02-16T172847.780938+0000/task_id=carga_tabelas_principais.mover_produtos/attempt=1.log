@@ -1,0 +1,13 @@
+{"timestamp":"2026-02-16T17:29:38.987885","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-16T17:29:39.001798","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/carga_supabase.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-16T17:29:44.309761","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2026-02-16T17:29:55.507007","level":"warning","event":"Skipping masking for a secret as it's too short (<5 chars)","logger":"airflow.sdk.execution_time.secrets_masker"}
+{"timestamp":"2026-02-16T17:29:55.507498","level":"info","event":"Connection Retrieved 'postgres_local'","logger":"airflow.hooks.base"}
+{"timestamp":"2026-02-16T17:29:56.075638","level":"info","event":"Running statement: SELECT product_id, product_name, category_id FROM products, parameters: None","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2026-02-16T17:29:56.112283","level":"info","event":"Rows affected: 77","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2026-02-16T17:29:56.120131","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2026-02-16T17:29:56.170408","level":"info","event":"Connection Retrieved 'supabase_db'","logger":"airflow.hooks.base"}
+{"timestamp":"2026-02-16T17:29:56.787252","level":"info","event":"Running statement: TRUNCATE TABLE produtos_northwind, parameters: None","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2026-02-16T17:30:02.602989","level":"info","event":"Loaded 77 rows into produtos_northwind so far","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2026-02-16T17:30:02.611677","level":"info","event":"Done loading. Loaded a total of 77 rows into produtos_northwind","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2026-02-16T17:30:02.612892","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
