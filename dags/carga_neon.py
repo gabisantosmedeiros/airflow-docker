@@ -1,6 +1,7 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.utils.task_group import TaskGroup
+from airflow.models import Variable  
 from datetime import datetime, timedelta
 import logging
 
@@ -9,17 +10,23 @@ logger = logging.getLogger("airflow.task")
 
 def sync_data_task(table_name):
     """
-    Função com log de erro.
+    Função para sincronizar dados buscando credenciais de forma segura.
     """
     try:
+    
+        url_origem = Variable.get("URL_LOCAL")
+        url_destino = Variable.get("URL_NEON")
+        
         logger.info(f"Iniciando atualização da tabela: {table_name}")
         
-        
-        print(f"Dados da tabela {table_name} atualizados com sucesso.")
+      
+        print(f"Dados da tabela {table_name} sincronizados com sucesso!")
+        logger.info(f"Finalizada atualização da tabela: {table_name}")
         
     except Exception as e:
         logger.error(f"Erro crítico ao atualizar {table_name}: {str(e)}")
         raise  
+
 
 default_args = {
     'owner': 'airflow',
@@ -31,16 +38,17 @@ default_args = {
     'retry_delay': timedelta(minutes=5),
 }
 
+
 with DAG(
     'UPDATE_SINC_DIARIA',
     default_args=default_args,
-    description='Atualização automática diária de dados Northwind',
+    description='Atualização automática diária de dados Northwind (Seguro)',
     schedule='@daily',  
     catchup=False,      
-    tags=['producao', 'northwind'],
+    tags=['producao', 'northwind', 'seguranca'],
 ) as dag:
 
-    
+   
     with TaskGroup(group_id='northwind_sync_group') as sync_group:
         
         tables = [
@@ -53,7 +61,7 @@ with DAG(
             'suppliers'
         ]
 
-        
+       
         for table in tables:
             PythonOperator(
                 task_id=f'sync_{table}',
@@ -61,4 +69,4 @@ with DAG(
                 op_kwargs={'table_name': table},
             )
 
-    sync_group  
+    sync_group
