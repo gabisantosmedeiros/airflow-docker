@@ -1,0 +1,13 @@
+{"timestamp":"2026-03-25T21:01:43.897086","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/19.Pools.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-25T21:01:53.957082","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/19.Pools.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-25T21:02:03.163274","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/19.Pools.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-25T21:02:18.484621","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/19.Pools.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-25T21:03:05.885154","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/19.Pools.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-25T21:04:08.748796","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/19.Pools.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-25T21:05:39.149639","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/19.Pools.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-25T21:05:47.332561","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/19.Pools.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-25T21:05:56.056904","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/19.Pools.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-25T21:06:01.888169","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/19.Pools.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-25T21:06:08.492214","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/19.Pools.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-25T21:06:15.118018","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/19.Pools.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-25T21:06:21.605440","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/19.Pools.py","logger":"airflow.models.dagbag.DagBag"}

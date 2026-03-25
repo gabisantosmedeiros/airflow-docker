@@ -1,0 +1,13 @@
+{"timestamp":"2026-01-20T13:30:32.777016","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-01-20T13:30:32.777612","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/21.ShortCircuit.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-01-20T13:30:32.906449Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T13:30:32.907174Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T13:30:32.910148Z","level":"info","event":"Current task name:shorcircuit","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T13:30:32.910715Z","level":"info","event":"Dag name:shortcircuit","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T13:30:32.961805Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T13:30:32.962391Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T13:30:32.962815Z","level":"info","event":"Task operator:<Task(ShortCircuitOperator): shorcircuit>","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T13:30:32.907670","level":"info","event":"Done. Returned value was: False","logger":"airflow.task.operators.airflow.providers.standard.operators.python.ShortCircuitOperator"}
+{"timestamp":"2026-01-20T13:30:32.908552","level":"info","event":"Condition result is False","logger":"airflow.task.operators.airflow.providers.standard.operators.python.ShortCircuitOperator"}
+{"timestamp":"2026-01-20T13:30:32.909030","level":"info","event":"Skipping downstream tasks","logger":"airflow.task.operators.airflow.providers.standard.operators.python.ShortCircuitOperator"}
+{"timestamp":"2026-01-20T13:30:32.910219","level":"info","event":"Skipping downstream tasks.","logger":"task"}

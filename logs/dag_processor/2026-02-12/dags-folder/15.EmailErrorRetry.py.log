@@ -1,0 +1,15 @@
+{"timestamp":"2026-02-12T12:27:02.907750","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/15.EmailErrorRetry.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:27:13.711252","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/15.EmailErrorRetry.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:27:25.611011","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/15.EmailErrorRetry.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:27:34.832868","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/15.EmailErrorRetry.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:27:43.157734","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/15.EmailErrorRetry.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:27:50.569668","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/15.EmailErrorRetry.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:28:05.206199","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/15.EmailErrorRetry.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:28:13.204492","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/15.EmailErrorRetry.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:28:19.709564","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/15.EmailErrorRetry.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:28:25.690976","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/15.EmailErrorRetry.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:28:33.060088","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/15.EmailErrorRetry.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:28:42.474939","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/15.EmailErrorRetry.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:28:49.903153","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/15.EmailErrorRetry.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:28:57.683847","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/15.EmailErrorRetry.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:29:05.139379","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/15.EmailErrorRetry.py","logger":"airflow.models.dagbag.DagBag"}

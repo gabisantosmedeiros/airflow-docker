@@ -1,0 +1,14 @@
+{"timestamp":"2026-01-19T21:12:17.984899","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-01-19T21:12:17.985681","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/13.Dayrundag2.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-01-19T21:12:19.336070Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-19T21:12:19.341743Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-19T21:12:19.344166Z","level":"info","event":"Current task name:tsk2","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-19T21:12:19.346481Z","level":"info","event":"Dag name:dagrundag2","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-19T21:12:18.037263","level":"info","event":"Tmp dir root location: /tmp","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2026-01-19T21:12:18.039821","level":"info","event":"Running command: ['/usr/bin/bash', '-c', 'sleep 5']","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2026-01-19T21:12:18.064566","level":"info","event":"Output:","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2026-01-19T21:12:23.098495","level":"info","event":"Command exited with return code 0","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2026-01-19T21:12:23.102520","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019bd819-de7a-740c-8d93-66b6a39d375a'), task_id='tsk2', dag_id='dagrundag2', run_id='manual__2026-01-19T21:12:11.651946+00:00', try_number=1, map_index=-1, hostname='3da253af8116', context_carrier={}, task=<Task(BashOperator): tsk2>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=0, start_date=datetime.datetime(2026, 1, 19, 21, 12, 16, 266231, tzinfo=TzInfo(UTC)), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task"}
+{"timestamp":"2026-01-19T21:12:23.297548Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-19T21:12:23.299150Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-19T21:12:23.300120Z","level":"info","event":"Task operator:<Task(BashOperator): tsk2>","chan":"stdout","logger":"task"}

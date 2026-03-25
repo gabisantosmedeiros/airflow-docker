@@ -1,0 +1,44 @@
+{"timestamp":"2026-02-17T21:02:47.744851","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-17T21:02:47.748947","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/carga_neon.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-17T21:02:47.849046Z","level":"info","event":"--- INICIANDO MIGRAÇÃO COMPLETA (16+ TABELAS) ---","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:02:47.849831Z","level":"info","event":"Lendo: public.categories","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:02:50.784196Z","level":"info","event":"✅ SUCESSO: categories","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:02:50.785644Z","level":"info","event":"Lendo: public.customer_customer_demo","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:02:51.095976Z","level":"info","event":"✅ SUCESSO: customer_customer_demo","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:02:51.096909Z","level":"info","event":"Lendo: public.customer_demographics","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:02:51.376260Z","level":"info","event":"✅ SUCESSO: customer_demographics","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:02:51.377359Z","level":"info","event":"Lendo: public.customers","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:02:52.755744Z","level":"info","event":"✅ SUCESSO: customers","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:02:52.756871Z","level":"info","event":"Lendo: public.employees","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:02:54.051508Z","level":"info","event":"✅ SUCESSO: employees","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:02:54.052346Z","level":"info","event":"Lendo: public.employee_territories","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:02:54.408540Z","level":"info","event":"✅ SUCESSO: employee_territories","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:02:54.409193Z","level":"info","event":"Lendo: public.order_details","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:02:55.961555Z","level":"info","event":"✅ SUCESSO: order_details","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:02:55.962105Z","level":"info","event":"Lendo: public.orders","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:02:57.372562Z","level":"info","event":"✅ SUCESSO: orders","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:02:57.373346Z","level":"info","event":"Lendo: public.products","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:02:58.661859Z","level":"info","event":"✅ SUCESSO: products","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:02:58.662437Z","level":"info","event":"Lendo: public.shippers","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:04:20.170430Z","level":"info","event":"✅ SUCESSO: shippers","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:04:20.171207Z","level":"info","event":"Lendo: public.suppliers","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:04:21.475040Z","level":"info","event":"✅ SUCESSO: suppliers","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:04:21.476730Z","level":"info","event":"Lendo: public.territories","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:04:22.753289Z","level":"info","event":"✅ SUCESSO: territories","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:04:22.754360Z","level":"info","event":"Lendo: public.us_states","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:04:23.113747Z","level":"info","event":"✅ SUCESSO: us_states","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:04:23.114577Z","level":"info","event":"Lendo: public.region","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:04:24.428579Z","level":"info","event":"✅ SUCESSO: region","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:04:24.429075Z","level":"info","event":"Lendo: public.departamentos","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:04:25.734616Z","level":"info","event":"✅ SUCESSO: departamentos","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:04:25.736869Z","level":"info","event":"Lendo: public.funcionarios","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:04:27.022047Z","level":"info","event":"✅ SUCESSO: funcionarios","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:04:27.023278Z","level":"info","event":"Lendo: rh.funcionarios","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:04:27.370541Z","level":"info","event":"✅ SUCESSO: rh_funcionarios","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:04:27.371131Z","level":"info","event":"Lendo: rh.departamentos","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:04:27.704348Z","level":"info","event":"✅ SUCESSO: rh_departamentos","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:04:27.705107Z","level":"info","event":"Lendo: contabilidade.despesas","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:04:28.035128Z","level":"info","event":"✅ SUCESSO: contabilidade_despesas","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:04:28.035639Z","level":"info","event":"Lendo: contabilidade.receitas","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:04:28.376252Z","level":"info","event":"✅ SUCESSO: contabilidade_receitas","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T21:04:28.401947","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

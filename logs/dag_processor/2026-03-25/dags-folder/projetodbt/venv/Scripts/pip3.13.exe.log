@@ -1,0 +1,2 @@
+{"timestamp":"2026-03-25T21:11:38.581783","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/projetodbt/venv/Scripts/pip3.13.exe","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-25T21:11:38.636377","level":"info","event":"File /opt/airflow/dags/projetodbt/venv/Scripts/pip3.13.exe:__main__.py assumed to contain no DAGs. Skipping.","logger":"airflow.models.dagbag.DagBag"}

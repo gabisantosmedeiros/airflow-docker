@@ -1,0 +1,5 @@
+{"timestamp":"2026-02-23T15:19:32.318261","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-23T15:19:32.366659","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/carga_neon.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-23T15:19:33.108141","level":"info","event":"🚀 Iniciando sincronização: shippers (PK: shipper_id)","logger":"unusual_prefix_3ad521d9bc7c5d7d3cd35ea4aaa39ce54483d6e9_carga_neon"}
+{"timestamp":"2026-02-23T15:19:53.714973","level":"info","event":"✅ SUCESSO: shippers sincronizada.","logger":"unusual_prefix_3ad521d9bc7c5d7d3cd35ea4aaa39ce54483d6e9_carga_neon"}
+{"timestamp":"2026-02-23T15:19:53.749448","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

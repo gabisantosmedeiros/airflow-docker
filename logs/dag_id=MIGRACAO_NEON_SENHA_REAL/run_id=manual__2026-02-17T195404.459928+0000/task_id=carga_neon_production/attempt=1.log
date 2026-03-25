@@ -1,0 +1,36 @@
+{"timestamp":"2026-02-17T19:55:10.573667","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-17T19:55:10.575901","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/carga_neon.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-17T19:55:12.072831","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2026-02-17T19:55:12.636043Z","level":"info","event":"--- INICIANDO CARGA PARA O NEON (SENHA ATUALIZADA) ---","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:55:12.636770Z","level":"info","event":"A ler local: public.categories","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:55:12.637495Z","level":"info","event":"⚠️ Erro em categories: 'utf-8' codec can't decode byte 0xe7 in position 100: invalid continuation byte","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:55:12.638185Z","level":"info","event":"A ler local: public.customers","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:55:12.639639Z","level":"info","event":"⚠️ Erro em customers: 'utf-8' codec can't decode byte 0xe7 in position 100: invalid continuation byte","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:55:12.642346Z","level":"info","event":"A ler local: public.employees","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:55:12.643357Z","level":"info","event":"⚠️ Erro em employees: 'utf-8' codec can't decode byte 0xe7 in position 100: invalid continuation byte","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:55:12.644504Z","level":"info","event":"A ler local: public.orders","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:55:12.645396Z","level":"info","event":"⚠️ Erro em orders: 'utf-8' codec can't decode byte 0xe7 in position 100: invalid continuation byte","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:55:12.649307Z","level":"info","event":"A ler local: public.products","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:55:12.650007Z","level":"info","event":"⚠️ Erro em products: 'utf-8' codec can't decode byte 0xe7 in position 100: invalid continuation byte","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:55:12.650910Z","level":"info","event":"A ler local: public.shippers","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:55:12.651589Z","level":"info","event":"⚠️ Erro em shippers: 'utf-8' codec can't decode byte 0xe7 in position 100: invalid continuation byte","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:55:12.652926Z","level":"info","event":"A ler local: public.suppliers","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:55:12.653694Z","level":"info","event":"⚠️ Erro em suppliers: 'utf-8' codec can't decode byte 0xe7 in position 100: invalid continuation byte","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:55:12.655894Z","level":"info","event":"A ler local: public.territories","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:55:12.657037Z","level":"info","event":"⚠️ Erro em territories: 'utf-8' codec can't decode byte 0xe7 in position 100: invalid continuation byte","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:55:12.658160Z","level":"info","event":"A ler local: public.region","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:55:12.659063Z","level":"info","event":"⚠️ Erro em region: 'utf-8' codec can't decode byte 0xe7 in position 100: invalid continuation byte","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:55:12.660059Z","level":"info","event":"A ler local: public.order_details","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:55:12.661871Z","level":"info","event":"⚠️ Erro em order_details: 'utf-8' codec can't decode byte 0xe7 in position 100: invalid continuation byte","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:55:12.663284Z","level":"info","event":"A ler local: public.departamentos","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:55:12.664450Z","level":"info","event":"⚠️ Erro em departamentos: 'utf-8' codec can't decode byte 0xe7 in position 100: invalid continuation byte","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:55:12.665518Z","level":"info","event":"A ler local: public.funcionarios","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:55:12.669825Z","level":"info","event":"⚠️ Erro em funcionarios: 'utf-8' codec can't decode byte 0xe7 in position 100: invalid continuation byte","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:55:12.670988Z","level":"info","event":"A ler local: rh.funcionarios","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:55:12.672007Z","level":"info","event":"⚠️ Pulei rh.funcionarios","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:55:12.672740Z","level":"info","event":"A ler local: rh.departamentos","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:55:12.677115Z","level":"info","event":"⚠️ Pulei rh.departamentos","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:55:12.679221Z","level":"info","event":"A ler local: contabilidade.despesas","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:55:12.680734Z","level":"info","event":"⚠️ Pulei contabilidade.despesas","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:55:12.682640Z","level":"info","event":"A ler local: contabilidade.receitas","chan":"stdout","logger":"task"}
+{"timestamp":"2026-02-17T19:55:12.683514Z","level":"info","event":"⚠️ Pulei contabilidade.receitas","chan":"stdout","logger":"task"}

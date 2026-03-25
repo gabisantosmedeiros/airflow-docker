@@ -1,0 +1,13 @@
+{"timestamp":"2026-02-16T17:29:38.984933","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-16T17:29:38.997546","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/carga_supabase.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-16T17:29:41.382898","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2026-02-16T17:29:55.459587","level":"warning","event":"Skipping masking for a secret as it's too short (<5 chars)","logger":"airflow.sdk.execution_time.secrets_masker"}
+{"timestamp":"2026-02-16T17:29:55.460016","level":"info","event":"Connection Retrieved 'postgres_local'","logger":"airflow.hooks.base"}
+{"timestamp":"2026-02-16T17:29:56.072285","level":"info","event":"Running statement: SELECT category_id, category_name FROM categories, parameters: None","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2026-02-16T17:29:56.113780","level":"info","event":"Rows affected: 8","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2026-02-16T17:29:56.126485","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2026-02-16T17:29:56.164759","level":"info","event":"Connection Retrieved 'supabase_db'","logger":"airflow.hooks.base"}
+{"timestamp":"2026-02-16T17:29:56.784312","level":"info","event":"Running statement: TRUNCATE TABLE categorias_northwind, parameters: None","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2026-02-16T17:29:58.058667","level":"info","event":"Loaded 8 rows into categorias_northwind so far","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2026-02-16T17:29:58.059362","level":"info","event":"Done loading. Loaded a total of 8 rows into categorias_northwind","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2026-02-16T17:29:58.060652","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

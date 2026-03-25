@@ -1,0 +1,5 @@
+{"timestamp":"2026-01-20T14:45:05.060620","level":"info","event":"trigger sensor/manual__2026-01-20T14:44:45.773303+00:00/fetch/-1/1 (ID 1) starting"}
+{"timestamp":"2026-01-20T14:45:05.258983","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2026-01-20T14:45:15.540382","level":"info","event":"Connection Retrieved 'openmeteo'","logger":"airflow.hooks.base"}
+{"timestamp":"2026-01-20T14:45:57.252702","level":"info","event":"Trigger fired event","name":"sensor/manual__2026-01-20T14:44:45.773303+00:00/fetch/-1/1 (ID 1)","result":"TriggerEvent<{'status': 'error', 'message': 'Connection timeout to host https://api.open-meteo.com/v1/forecast?latitude=-23.55&longitude=-46.63&hourly=temperature_2m'}>"}
+{"timestamp":"2026-01-20T14:46:11.546913","level":"info","event":"trigger completed","name":"sensor/manual__2026-01-20T14:44:45.773303+00:00/fetch/-1/1 (ID 1)"}

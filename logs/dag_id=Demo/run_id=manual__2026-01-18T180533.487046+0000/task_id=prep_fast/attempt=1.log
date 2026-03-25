@@ -1,0 +1,15 @@
+{"timestamp":"2026-01-18T18:05:49.785147","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-01-18T18:05:49.786479","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-01-18T18:05:49.851007Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-18T18:05:49.851778Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-18T18:05:49.853268Z","level":"info","event":"Current task name:prep_fast","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-18T18:05:49.853792Z","level":"info","event":"Dag name:Demo","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-18T18:05:49.829763","level":"info","event":"Tmp dir root location: /tmp","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2026-01-18T18:05:49.831516","level":"info","event":"Running command: ['/usr/bin/bash', '-c', \"echo 'prep_fast rodando rápido' && sleep 1\"]","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2026-01-18T18:05:49.847420","level":"info","event":"Output:","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2026-01-18T18:05:49.849518","level":"info","event":"prep_fast rodando rápido","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2026-01-18T18:05:50.853735","level":"info","event":"Command exited with return code 0","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2026-01-18T18:05:50.856055","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019bd248-a04e-78ea-8159-a5f0170e4443'), task_id='prep_fast', dag_id='Demo', run_id='manual__2026-01-18T18:05:33.487046+00:00', try_number=1, map_index=-1, hostname='3da253af8116', context_carrier={}, task=<Task(BashOperator): prep_fast>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=0, start_date=datetime.datetime(2026, 1, 18, 18, 5, 49, 33745, tzinfo=TzInfo(UTC)), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task"}
+{"timestamp":"2026-01-18T18:05:50.904517Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-18T18:05:50.905777Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-18T18:05:50.906358Z","level":"info","event":"Task operator:<Task(BashOperator): prep_fast>","chan":"stdout","logger":"task"}

@@ -1,0 +1,13 @@
+{"timestamp":"2026-02-16T17:29:47.346548","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-16T17:29:47.354401","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/carga_supabase.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-16T17:29:47.794068","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2026-02-16T17:29:56.405806","level":"warning","event":"Skipping masking for a secret as it's too short (<5 chars)","logger":"airflow.sdk.execution_time.secrets_masker"}
+{"timestamp":"2026-02-16T17:29:56.406522","level":"info","event":"Connection Retrieved 'postgres_local'","logger":"airflow.hooks.base"}
+{"timestamp":"2026-02-16T17:29:56.512784","level":"info","event":"Running statement: SELECT customer_id, company_name, city FROM customers, parameters: None","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2026-02-16T17:29:56.529043","level":"info","event":"Rows affected: 91","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2026-02-16T17:29:56.531553","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2026-02-16T17:29:56.545544","level":"info","event":"Connection Retrieved 'supabase_db'","logger":"airflow.hooks.base"}
+{"timestamp":"2026-02-16T17:29:56.987088","level":"info","event":"Running statement: TRUNCATE TABLE clientes_northwind, parameters: None","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2026-02-16T17:30:03.663872","level":"info","event":"Loaded 91 rows into clientes_northwind so far","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2026-02-16T17:30:03.673739","level":"info","event":"Done loading. Loaded a total of 91 rows into clientes_northwind","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2026-02-16T17:30:03.675207","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

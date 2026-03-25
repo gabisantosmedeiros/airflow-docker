@@ -1,0 +1,15 @@
+{"timestamp":"2026-02-12T12:27:02.732945","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/16.EmailCallback.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:27:12.948203","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/16.EmailCallback.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:27:25.352719","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/16.EmailCallback.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:27:34.577468","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/16.EmailCallback.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:27:42.897558","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/16.EmailCallback.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:27:50.353826","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/16.EmailCallback.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:28:04.997465","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/16.EmailCallback.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:28:13.004351","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/16.EmailCallback.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:28:19.546056","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/16.EmailCallback.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:28:25.503604","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/16.EmailCallback.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:28:32.981104","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/16.EmailCallback.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:28:42.204090","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/16.EmailCallback.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:28:49.523981","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/16.EmailCallback.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:28:57.554142","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/16.EmailCallback.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:29:04.956037","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/16.EmailCallback.py","logger":"airflow.models.dagbag.DagBag"}

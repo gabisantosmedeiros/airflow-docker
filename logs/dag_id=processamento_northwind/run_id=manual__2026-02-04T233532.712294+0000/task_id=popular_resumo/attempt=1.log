@@ -1,0 +1,9 @@
+{"timestamp":"2026-02-04T23:36:03.266037","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T23:36:03.267294","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/meu_primeiro_pipeline.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T23:36:03.374195","level":"info","event":"Executing: \n            INSERT INTO contabilidade.resumo_categorias (categoria_nome, data_processamento)\n            SELECT category_name, CURRENT_TIMESTAMP \n            FROM public.categories;\n        ","logger":"airflow.task.operators.airflow.providers.common.sql.operators.sql.SQLExecuteQueryOperator"}
+{"timestamp":"2026-02-04T23:36:03.380262","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2026-02-04T23:36:03.468341","level":"info","event":"Connection Retrieved 'postgres_local'","logger":"airflow.hooks.base"}
+{"timestamp":"2026-02-04T23:36:03.477194","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2026-02-04T23:36:03.494508","level":"info","event":"Connection Retrieved 'postgres_local'","logger":"airflow.hooks.base"}
+{"timestamp":"2026-02-04T23:36:03.666324","level":"info","event":"Running statement: \n            INSERT INTO contabilidade.resumo_categorias (categoria_nome, data_processamento)\n            SELECT category_name, CURRENT_TIMESTAMP \n            FROM public.categories;\n        , parameters: None","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2026-02-04T23:36:03.729363","level":"info","event":"Rows affected: 8","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}

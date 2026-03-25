@@ -1,0 +1,9 @@
+{"timestamp":"2026-03-17T14:41:22.065348","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-03-17T14:41:22.075110","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/carga_neon.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-17T14:41:22.447531","level":"warning","event":"/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py:147: DeprecationWarning: Using Variable.get from `airflow.models` is deprecated.Please use `from airflow.sdk import Variable` instead\n  warnings.warn(\n","logger":"py.warnings"}
+{"timestamp":"2026-03-17T14:41:22.453582","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2026-03-17T14:41:28.761835","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2026-03-17T14:41:28.795418","level":"info","event":"Iniciando atualização da tabela: products","logger":"airflow.task"}
+{"timestamp":"2026-03-17T14:41:28.796120","level":"info","event":"Finalizada atualização da tabela: products","logger":"airflow.task"}
+{"timestamp":"2026-03-17T14:41:28.803651Z","level":"info","event":"Dados da tabela products sincronizados com sucesso!","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-17T14:41:28.802491","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

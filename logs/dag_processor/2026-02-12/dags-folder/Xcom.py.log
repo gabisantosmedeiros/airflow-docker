@@ -1,0 +1,14 @@
+{"timestamp":"2026-02-12T12:27:03.858366","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Xcom.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:27:17.970839","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Xcom.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:27:30.867695","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Xcom.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:27:40.874071","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Xcom.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:27:48.535741","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Xcom.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:28:05.712824","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Xcom.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:28:14.310181","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Xcom.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:28:20.124626","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Xcom.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:28:26.268071","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Xcom.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:28:33.725824","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Xcom.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:28:46.575888","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Xcom.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:28:52.711812","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Xcom.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:29:00.596373","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Xcom.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-12T12:29:09.153023","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Xcom.py","logger":"airflow.models.dagbag.DagBag"}

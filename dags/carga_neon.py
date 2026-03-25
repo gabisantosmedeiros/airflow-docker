@@ -9,9 +9,7 @@ import logging
 logger = logging.getLogger("airflow.task")
 
 def sync_data_task(table_name):
-    """
-    Função para sincronizar dados buscando credenciais de forma segura.
-    """
+    
     try:
     
         url_origem = Variable.get("URL_LOCAL")

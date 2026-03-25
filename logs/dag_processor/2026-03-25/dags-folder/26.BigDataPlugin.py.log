@@ -1,0 +1,14 @@
+{"timestamp":"2026-03-25T21:01:42.087720","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/26.BigDataPlugin.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-25T21:01:52.938192","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/26.BigDataPlugin.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-25T21:02:00.349903","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/26.BigDataPlugin.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-25T21:02:12.808805","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/26.BigDataPlugin.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-25T21:02:37.097500","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/26.BigDataPlugin.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-25T21:04:06.079650","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/26.BigDataPlugin.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-25T21:04:48.768901","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/26.BigDataPlugin.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-25T21:05:36.076492","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/26.BigDataPlugin.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-25T21:05:43.309839","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/26.BigDataPlugin.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-25T21:05:54.645422","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/26.BigDataPlugin.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-25T21:06:00.537015","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/26.BigDataPlugin.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-25T21:06:07.527397","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/26.BigDataPlugin.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-25T21:06:12.985210","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/26.BigDataPlugin.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-25T21:06:19.264054","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/26.BigDataPlugin.py","logger":"airflow.models.dagbag.DagBag"}

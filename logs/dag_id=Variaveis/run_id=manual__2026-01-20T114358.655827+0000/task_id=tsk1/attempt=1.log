@@ -1,0 +1,14 @@
+{"timestamp":"2026-01-20T11:44:14.602651","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-01-20T11:44:14.609161","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/18.Variaveis.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-01-20T11:44:18.623766Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T11:44:18.624937Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T11:44:18.625623Z","level":"info","event":"Current task name:tsk1","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T11:44:18.626241Z","level":"info","event":"Dag name:Variaveis","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T11:44:14.757823","level":"warning","event":"/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py:147: DeprecationWarning: Using Variable.get from `airflow.models` is deprecated.Please use `from airflow.sdk import Variable` instead\n  warnings.warn(\n","logger":"py.warnings"}
+{"timestamp":"2026-01-20T11:44:14.766539","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2026-01-20T11:44:18.626379","level":"warning","event":"Skipping masking for a secret as it's too short (<5 chars)","logger":"airflow.sdk.execution_time.secrets_masker"}
+{"timestamp":"2026-01-20T11:44:18.629517Z","level":"info","event":"O valor da variável é: 1000","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T11:44:18.627316","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2026-01-20T11:44:18.630868Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T11:44:18.631486Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-20T11:44:18.684219Z","level":"info","event":"Task operator:<Task(PythonOperator): tsk1>","chan":"stdout","logger":"task"}
