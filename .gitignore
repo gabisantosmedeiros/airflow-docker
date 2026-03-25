@@ -1,2 +1,10 @@
+venv/
+logs/
+airflow.db
+airflow.cfg
+webserver_config.py
+.env
+target/
+dbt_packages/
 __pycache__/
-airflow-docker/
+*.pyc
