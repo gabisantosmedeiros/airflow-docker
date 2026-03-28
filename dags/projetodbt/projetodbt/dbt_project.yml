@@ -46,3 +46,8 @@ models:
       materialized: table
       tags: ['marts']
 
+seeds:
+  projetodbt:
+  +schema: seeds
+  tags: ['seeds']  
+
