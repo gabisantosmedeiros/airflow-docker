@@ -1,10 +1,10 @@
-projeto_um:
-  target: dev
-  outputs:
-    dev:
-      type: bigquery
-      method: service-account
-      project: black-display-452912-q9
-      dataset: "{{ env_var('DBT_DBNAME', 'dbt_dw') }}"
-      threads: 4
-      keyfile: C:\Users\gabri\.dbt\black-display-452912-q9-5bf3a5513203.json
+projeto_um: # 0 espaços
+  target: dev # 2 espaços
+  outputs: # 2 espaços
+    dev: # 4 espaços
+      type: bigquery # 6 espaços
+      method: service-account # 6 espaços
+      project: black-display-452912-q9 # 6 espaços
+      dataset: "{{ env_var('DBT_DBNAME', 'dbt_dw') }}" # 6 espaços
+      threads: 4 # 6 espaços
+      keyfile: C:\Users\gabri\.dbt\black-display-452912-q9-5bf3a5513203.json # 6 espaços
