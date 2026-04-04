@@ -1,0 +1,10 @@
+projeto_um:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: black-display-452912-q9
+      dataset: "{{ env_var('DBT_DBNAME', 'dbt_dw') }}"
+      threads: 4
+      keyfile: C:\Users\gabri\.dbt\black-display-452912-q9-5bf3a5513203.json
